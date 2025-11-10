@@ -26,6 +26,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools
 # Need to run the environment 
 C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat
 
+Ctrl + Shift + B (runs “Build with VC Build Tools”)
 
 # Documentation on lauch.json
 https://code.visualstudio.com/docs/debugtest/debugging#_launch-configurations
