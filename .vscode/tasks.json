@@ -19,17 +19,6 @@
       "problemMatcher": ["$msCompile"],
       "group": { "kind": "build", "isDefault": true },
       "detail": "Run vcvarsall.bat then cl.exe to build the active file"
-    },
-    {
-      "label": "Clean build output",
-      "type": "shell",
-      "command": "cmd.exe",
-      "args": ["/c", "del /Q *.obj *.exe"],
-      "options": {
-        "cwd": "${fileDirname}"
-      },
-      "problemMatcher": [],
-      "detail": "Remove build artifacts (.obj and .exe)."
     }
   ]
 }
